@@ -1,16 +1,16 @@
 [project]
 name = "py-library"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12,<3.13"
 dependencies = [
-    "matplotlib>=3.11.0",
-    "notebook>=7.5.7",
-    "numpy>=2.4.6",
-    "openpyxl>=3.1.5",
-    "pandas>=3.0.3",
-    "scikit-learn>=1.9.0",
-    "seaborn>=0.13.2",
-    "word2number>=1.1",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn==1.5.0",
+    "xgboost",
+    "notebook",
+    "mlflow>=3.14.0",
+    "imblearn>=0.0",
+    "dagshub>=0.7.0",
 ]
